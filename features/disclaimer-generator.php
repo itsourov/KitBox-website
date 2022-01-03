@@ -4,8 +4,8 @@ include "../header.php";
 
 ?>
 <div class="container featurebox">
-<form name="gen" method="post" action="http://localhost/www/bootstrap/features/result.php">
-<h3 class="center-wrapper"><span  class="center headingtext">GDPR Privacy Policy Generator By KitBox.org</h3>
+<form name="gen" method="post" action="result.php">
+<h3 class="center-wrapper"><span  class="center headingtext">GDPR Disclaimer Generator By KitBox.org</h3>
 <label><span style="color: yellow;">Website Name</label>
 <br>
 <input  type="text" name="myname" id="T1" placeholder="Website Name" required><br>

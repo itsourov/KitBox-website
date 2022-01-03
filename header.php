@@ -31,8 +31,10 @@ include "config.php";
                             Features
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/privacy-policy-gen.php">Privacy Policy Generator</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/privacy-policy-generator.php">Privacy Policy Generator</a></li>
+                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/terms-and-conditions-generator.php">Terms & Conditions Generator</a></li>
+                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/disclaimer-generator.php">Disclaimer Generator</a></li>
+                    
                             <li>
                                 <hr class="dropdown-divider">
                             </li>

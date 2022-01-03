@@ -13,6 +13,6 @@ $dbname = "kitbox";
 
 $siteUrl = "http://localhost/www/bootstrap-website/";    
 
-$menus = array(array("Home",$siteUrl), array("Products", $siteUrl."features/privacy-policy-gen.php"),array("tasdasdest","fhtest"));
+$menus = array(array("Home",$siteUrl), array("Products", $siteUrl."features/privacy-policy-generator.php"),array("tasdasdest","fhtest"));
 
 ?>
