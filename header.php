@@ -7,7 +7,8 @@ include "config.php";
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="<?php echo $siteUrl; ?>main.css?Asj">
+    <link rel="stylesheet" href="<?php echo $siteUrl; ?>main.css?A">
+    <link rel="icon" type="image/x-icon" href="<?php echo $siteUrl; ?>images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -40,7 +41,7 @@ include "config.php";
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/all-in-one-generator.php">Newspaper Theme Activator</a></li>
+                            <li><a class="dropdown-item" href="<?php echo $siteUrl; ?>features/newspaper-theme-activator.php">Newspaper Theme Activator</a></li>
                        
                         </ul>
                     </li>

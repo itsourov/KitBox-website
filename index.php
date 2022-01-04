@@ -15,7 +15,7 @@ include 'config.php';
 
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
-            <img class="spaces" src="https://kitbox.org/wp-content/uploads/2021/02/termify-documents-1024x745.png" alt="" width="90%">
+            <img class="spaces" src="./images/termify-documents.png" alt="" width="90%">
         </div>
 
     </div>
@@ -103,15 +103,16 @@ include 'config.php';
 
     <div class="row" style="margin-top: 3vh;">
 
-    <div class="col-12">
-    <div class="card">
-                
-                <h4>Generate All at once</h4>
-                 <a href="<?php echo $siteUrl; ?>features/all-in-one-generator.php" class="btn btn-outline-warning">Create</a>
-            </div>
-    </div>
-    </div>
+        <div class="col-12">
+            <div class="card">
 
+                <h4>Generate All at once</h4>
+                <a href="<?php echo $siteUrl; ?>features/all-in-one-generator.php" class="btn btn-warning ">Create</a>
+            </div>
+        </div>
+    </div>
+    <hr class="bg-danger border-2 border-top border-danger">
+  
 
 
 
