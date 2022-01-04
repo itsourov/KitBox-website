@@ -3,7 +3,7 @@ include 'header.php';
 include 'config.php';
 
 ?>
-
+<title><?php echo $siteName; ?> | <?php echo $siteTag; ?></title>
 <div class="container">
 
     <div class="row">
@@ -99,6 +99,17 @@ include 'config.php';
 
 
 
+    </div>
+
+    <div class="row" style="margin-top: 3vh;">
+
+    <div class="col-12">
+    <div class="card">
+                
+                <h4>Generate All at once</h4>
+                 <a href="<?php echo $siteUrl; ?>features/all-in-one-generator.php" class="btn btn-outline-warning">Create</a>
+            </div>
+    </div>
     </div>
 
 

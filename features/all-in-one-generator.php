@@ -3,10 +3,10 @@ include("../config.php");
 include "../header.php";
 
 ?>
-<title>Privacy Policy Generator | <?php echo $siteName; ?></title>
+<title>All in One Generator | <?php echo $siteName; ?></title>
 <div class="container featurebox">
     <form name="gen" method="post" action="result.php">
-        <h3 class="center-wrapper"><span class="center headingtext">GDPR Privacy Policy Generator By KitBox.org</h3>
+        <h3 class="center-wrapper"><span class="center headingtext">GDPR all pages Generator By KitBox.org</h3>
         <label><span style="color: yellow;">Website Name</label>
         <br>
         <input type="text" name="myname" id="T1" placeholder="Website Name" required><br>
@@ -23,9 +23,8 @@ include "../header.php";
 
 
     </form>
-
 </div>
 
-    <?php
-    include "../footer.php";
-    ?>
+<?php
+include "../footer.php";
+?>

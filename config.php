@@ -12,6 +12,8 @@ $dbname = "kitbox";
 //$conn = new mysqli($servername, $username, $password, $dbname);
 
 $siteUrl = "http://localhost/www/bootstrap-website/";    
+$siteName = "KitBox";
+$siteTag = "A Free Online Tool For Everyone";
 
 $menus = array(array("Home",$siteUrl), array("Products", $siteUrl."features/privacy-policy-generator.php"),array("tasdasdest","fhtest"));
 

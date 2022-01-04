@@ -3,6 +3,7 @@ include("../config.php");
 include "../header.php";
 
 ?>
+<title>Disclaimer Generator | <?php echo $siteName; ?></title>
 <div class="container featurebox">
 <form name="gen" method="post" action="result.php">
 <h3 class="center-wrapper"><span  class="center headingtext">GDPR Disclaimer Generator By KitBox.org</h3>
@@ -23,7 +24,7 @@ include "../header.php";
 
 </form>
 
-
+</div>
 <?php 
 include "../footer.php";
 ?>
